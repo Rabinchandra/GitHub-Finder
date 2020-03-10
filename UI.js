@@ -8,7 +8,7 @@ class UI {
         <div class="profile">
         <div class="profile-pic">
             <img src="${profile.avatar_url}"><br>
-            <a href="${profile.url}"><button>View Profile</button></a>
+            <a href="${profile.html_url}"><button>View Profile</button></a>
         </div>
         <div class="profile-details">
             <button class="profile-stats">Public-repos: ${profile.public_repos}</button>
